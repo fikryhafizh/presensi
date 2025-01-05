@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Styling untuk tampilan elegan */
+        body {
+            background: #f4f7fc;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .text-primary {
+            font-weight: bold;
+            color: #8d1a66 !important;
+            text-shadow: 2px 2px 4px rgba(90, 103, 216, 0.3);
+        }
+
+        .main-box {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid green; /* Garis hijau di sekitar kotak */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .main-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .main-box h5 {
+            font-size: 1.25rem;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .main-box p {
+            font-size: 1rem;
+            color: #4a5568;
+        }
+
+        .row > div {
+            border-left: 4px solid #d3d3d3; /* Garis abu-abu di dalam kolom */
+            padding-left: 15px;
+        }
+
+        .row > div:first-child {
+            border-left: 4px solid #d3d3d3; /* Garis abu-abu pada kolom pertama */
+        }
+
+        .row > div:nth-child(2) {
+            border-left: 4px solid #d3d3d3; /* Garis abu-abu pada kolom kedua */
+        }
+
+        .row > div:nth-child(3) {
+            border-left: 4px solid #d3d3d3; /* Garis abu-abu pada kolom ketiga */
+        }
+
+        .row > div:nth-child(4) {
+            border-left: 4px solid #d3d3d3; /* Garis abu-abu pada kolom keempat */
+        }
+
+        @media (max-width: 768px) {
+            .row > div {
+                border-left: none;
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4 text-primary">Presensi KA - 5 Reguler</h1>
+        <div class="main-box">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>P1 Instalasi Tool Program</h5>
+                    <p>30 of 30 sudah hadir</p>
+                </div>
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <h5>Jadwal Tatap Muka</h5>
+                    <p>Monday, September 16, 07:30 ~ 3 bulan yang lalu</p>
+                    <p>Opening: Sep 16, 2024, 08:00</p>
+                    <p>Closing: Sep 22, 2024, 00:00</p>
+                </div>
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-2 mb-4">
+                    <h5>Soal Saya | Buat Soal</h5>
+                    <p>5 Soal</p>
+                </div>
+                <!-- Kolom 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Absensi</h5>
+                    <p>Ontime at Tue, Sep 24, 09:16:41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="main-box">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>P2 Introduction web mobile</h5>
+                    <p>30 of 30 sudah hadir</p>
+                </div>
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <h5>Jadwal Tatap Muka</h5>
+                    <p>Monday, September 23, 07:30 ~ 3 bulan yang lalu</p>
+                    <p>Opening: Sep 23, 2024, 08:00</p>
+                    <p>Closing: Sep 30, 2024, 00:00</p>
+                </div>
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-2 mb-4">
+                    <h5>Soal Saya | buat soal</h5>
+                    <p>5 Soal</p>
+                </div>
+                <!-- Kolom 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Absensi</h5>
+                    <p>Ontime at Tue, Sep 24, 09:16:41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="main-box">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>P3 Maping Skill</h5>
+                    <p>30 of 30 sudah hadir</p>
+                </div>
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <h5>Jadwal Tatap Muka</h5>
+                    <p>Monday, September 30, 07:30 ~ 3 bulan yang lalu</p>
+                    <p>Opening: Sep 30, 2024, 08:00</p>
+                    <p>Closing: Okt 07, 2024, 00:00</p>
+                </div>
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-2 mb-4">
+                    <h5>Soal Saya | buat soal</h5>
+                    <p>5 Soal</p>
+                </div>
+                <!-- Kolom 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Absensi</h5>
+                    <p>Ontime at Tue, Sep 30, 09:16:41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="main-box">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>P4 Grid Display</h5>
+                    <p>30 of 30 sudah hadir</p>
+                </div>
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <h5>Jadwal Tatap Muka</h5>
+                    <p>Monday, Oktober 07, 07:30 ~ 3 bulan yang lalu</p>
+                    <p>Opening: Sep 07, 2024, 08:00</p>
+                    <p>Closing: Sep 14, 2024, 00:00</p>
+                </div>
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-2 mb-4">
+                    <h5>Soal Saya | buat soal</h5>
+                    <p>5 Soal</p>
+                </div>
+                <!-- Kolom 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Absensi</h5>
+                    <p>Ontime at Tue, Okt 07, 09:16:41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
